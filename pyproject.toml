@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bobby-table"
+version = "0.1.0"
+description = ""
+authors = ["Eivind Teig <eivind.teig@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bobby_table"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+manim = "^0.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
